@@ -1,7 +1,9 @@
 # dev-standards-template
 Development standards for frontend web applications at Openforge
 
-General Project Reference Template
+## General Project Reference Template
+
+Outline
 - Architecture Level
 - Project Level
 - Library Level
