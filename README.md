@@ -3,7 +3,7 @@ Development standards for frontend web applications at Openforge
 
 ## General Project Reference Template
 
-Outline
+### Outline
 - Architecture Level
 - Project Level
 - Library Level
@@ -13,7 +13,7 @@ Outline
 - Bug/Issue Tracking
 - Other Standards
 
-Architecture Level
+### Architecture Level
 - File structure
 - Module file structure
 - Module naming rules
@@ -24,19 +24,19 @@ Architecture Level
 - Integration Testing & Pipelines
 - E2E Testing
 
-Project Level
+### Project Level
 - General Dependencies
 - Package JSON specifics
     - What dependencies are dev dependencies?
 
-Library Level
+### Library Level
 - Routing
 - Async Operations with RxJS
 - Unit Testing
 - State management
     - State
 
-Code Authoring Level
+### Code Authoring Level
 - Imports
 - Constructors
 - Comments
@@ -53,28 +53,28 @@ Code Authoring Level
 - Lint Rules
 - Prettier
 
-Generalized Code Standards & Best Practices
+### Generalized Code Standards & Best Practices
 - Naming conventions
 - ??? (Research other topics)
 
-PR Reviews
+### PR Reviews
 - Look into a few recent projects
 - Review recently approved PRs
 - Review current unapproved PRs
 - Define process for PR reviews
 
-Bug/Issue Tracking
+### Bug/Issue Tracking
 - How to report issues (how to format report)
 - Where to report issues
 - Creating issue branches
 - Creating issue PRs
 - Reviewing & closing
 
-Other standards
+### Other standards
 - Multilingual support
 - Accessibility
 
-Project Specific README Templates
+### Project Specific README Templates
 - Angular
 - Ionic
 - Stencil
