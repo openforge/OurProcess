@@ -15,7 +15,7 @@
   Working with the latest technologies, designing the best products, and sharing our knowledge with the world wide community
 </p>
 
-#Internal Dev Process
+# Internal Dev Process
 - Backend
 - Frontend
 - Accounts
@@ -23,7 +23,7 @@
 
 ##################################################################
 
-#Backend
+# Backend
 - Review Requirements
 - Get Access to Repo
 - Pull Starter App
@@ -34,10 +34,10 @@
 - Making a PR
 - Backend Configuration
 
-##Gather Requirements
+## Gather Requirements
 - Need: Finalized business requirements for the approved version
 
-##Get Access to Repo
+## Get Access to Repo
 - Need: The repository for this app should already be created by the project owner (client) & exist under his/her ownership as a private repo (At what step do we do this?)
 - Does the client account exist?
 - If no, guide the project owner to create an account and a private repo for the backend code, and make sure that the project's dev point person has admin rights
@@ -47,19 +47,19 @@ Pull in the the starter application, and push code into the project's repo
 - Need: Backend Starter app
 - Git Branch: master
 
-###Edit README Template
+### Edit README Template
 - Need: Framework specific README requirements
 - Git Branch: master
 - Clean up the default README by removing all parts that don't apply to projects built with the required framework
 
-##Install Dependencies
+## Install Dependencies
 - Need: Requirements (When do we determine the dependency requirements for a project?)
 - Need: Default project setup requirements (linting, commitizen, husky, etc)
 - Git Branch: master
 - Add all required dependencies in project manifest
 - Implement Continuous Integration with TravisCI
 
-##Scaffolding
+## Scaffolding
 Create basic boilerplate skeletons for the app's major parts & features
 - Need: Requirements > App Features
 - Git Branch: develop
@@ -67,7 +67,7 @@ Create basic boilerplate skeletons for the app's major parts & features
 - Feature Controllers
 - REST Endpoints
 
-##Features
+## Features
 Implement the intended functionality in the business logic for each feature according to requirements
 - Git Branch: feature-branch
 - Establish DB Connection & Querying for resource
@@ -78,7 +78,7 @@ Implement the intended functionality in the business logic for each feature acco
 - Write unit tests for features
 - If any configuration should be done by the owner, inform the owner to complete this setup
 
-##Pull Request
+## Pull Request
 - Is each feature's business logic implemented?
 - Does it work according to requirements?
     - API endpoints & responses?
@@ -86,7 +86,7 @@ Implement the intended functionality in the business logic for each feature acco
 - If yes to all the above:
     - Create a pull request to develop
 
-##Finalizeing Version
+## Finalizeing Version
 - Are all features complete?
 - Do all features function according to requirements?
 - Does CI pass all the tests?
@@ -95,34 +95,34 @@ Implement the intended functionality in the business logic for each feature acco
 
 ##################################################################
 
-#Frontend
+# Frontend
 
-##Gather Requirements
+## Gather Requirements
 - Need: Finalized business requirements for the approved version
 
-##Get Access to Repo
+## Get Access to Repo
 - Need: The repository for this app should already be created by the project owner (client) & exist under his/her ownership as a private repo (At what step do we do this?)
 - Does the client account exist?
 - If no, guide the project owner to create an account and a private repo for the frontend code, and make sure that the project's dev point person has admin rights
 
-##Pull Starter App
+## Pull Starter App
 Pull in the the starter application, and push code into the project's repo
 - Need: Backend Starter app
 - Git Branch: master
 
-###Edit README Template
+### Edit README Template
 - Need: Framework specific README requirements
 - Git Branch: master
 - Clean up the default README by removing all parts that don't apply to projects built with the required framework
 
-##Install Dependencies
+## Install Dependencies
 - Need: Requirements (When do we determine the dependency requirements for a project?)
 - Need: Default project setup requirements (ngrx?, linting, commitizen, husky, etc)
 - Git Branch: master
 - Add all required dependencies in project manifest
 - Implement Continuous Integration with TravisCI
 
-##Scaffolding (on master branch)
+## Scaffolding (on master branch)
 - Need: List of all features
 - Git Branch: develop
 - App Module
@@ -131,21 +131,21 @@ Pull in the the starter application, and push code into the project's repo
 - Shared Components
 - App State
 
-##Develop Features
+## Develop Features
 Implement the intended functionality in the business logic for each feature according to requirements
 - Need: Requirements specific to this feature
 - Need: Ensure all dependencies & external integrations are installed & configured properly
 - Need: Necessary Configurations to correctly provide resource from API
 - Git Branch: feature-branch
 
-###Services
+### Services
 - Create provider functions for all the resources in current feature
     - Pull in resoureces via API
     - Return correctly modeled data resources
 - Console log to ensure correct implementation of provider functions
 - Write unit tests for provider functions
 
-###State Management
+### State Management
 Use the new @ngrx/entity methodology for creating actions based on CRUD methods & setting up selectors
 - Distribute resources into feature state
     - Actions
@@ -153,13 +153,13 @@ Use the new @ngrx/entity methodology for creating actions based on CRUD methods 
     - Effects
 - Write unit tests for all state management files in feature
 
-###View Template
+### View Template
 - Inject feature State into Containers
 - Set container properties (resources pulled from feature state via selectors)
 - Cut out template HTML & create components
 - Input properties to compnents & emit UI events where needed
 
-###Pull Request
+### Pull Request
 - Does feature work according to requirements?
     - If yes: Write unit tests for view components
     - If no: Make necessary refactoring to meet requirements
