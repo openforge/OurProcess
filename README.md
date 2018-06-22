@@ -16,7 +16,7 @@
 </p>
 
 # What is this?
-A simple procedural guide for developing frontend applications the OpenForge way. This is the starting point for the development phase of every project.
+A simple procedural guide for developing applications the OpenForge way. This is the starting point for the development phase of every project.
 
 # What do you need to get started?
 Prior to kicking off development on a new project, you will need to gather the dev-requirements[LINK: dev-requirements template doc] for the specific project that you're working on. These requirements will serve as your guide with regards to all necessary dependencies & specifics for your project.
