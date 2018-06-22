@@ -19,7 +19,7 @@
 A simple procedural guide for developing applications the OpenForge way. This is the starting point for the development phase of every project.
 
 # What do you need to get started?
-Prior to kicking off development on a new project, you will need to gather the dev-requirements[LINK: dev-requirements template doc] for the specific project that you're working on. These requirements will serve as your guide with regards to all necessary dependencies & specifics for your project.
+Prior to kicking off development on a new project, you will need to gather the dev-requirements[LINK: dev-requirements template doc] for the specific project that you're working on. That document will be your guide to figuring out all necessary dependencies & specifics for your project.
 
 # Let's Kick off Dev Work
 Refer to your project's dev-requirements to find answers to the following questions, and follow the appropriate links to get to where you need to be. Now, we are officially kicking off dev, WHOOO!
