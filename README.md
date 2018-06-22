@@ -15,199 +15,27 @@
   Working with the latest technologies, designing the best products, and sharing our knowledge with the world wide community
 </p>
 
-# dev-standards-template
-Development standards for frontend web applications at Openforge
+# What is this?
+A simple procedural guide for developing frontend applications the OpenForge way. This is the starting point for the development phase of every project.
 
-## General Project Reference Template
+# What do you need to get started?
+Prior to kicking off development on a new project, you will need to gather the dev-requirements[LINK: dev-requirements template doc] for the specific project that you're working on. These requirements will serve as your guide with regards to all necessary dependencies & specifics for your project.
 
-### Outline
-- Process
-    - Scaffolding Angular Projects
-        - App
-        - Services
-        - NGRX
-        - Modules
-        - Components
-        - Other
-- Standards
-    - Architecture Level
-    - Project Level
-    - Library Level
-    - Code Authoring Level
-    - Generalized Code Standards & Best Practices
-    - PR Reviews
-    - Bug/Issue Tracking
-    - Other Standards
+# Let's Kick off Dev Work
+Refer to your project's dev-requirements to find answers to the following questions, and follow the appropriate links to get to where you need to be. Now, we are officially kicking off dev, WHOOO!
 
-### Architecture Level
-- Gathering requirements
-- Backend dependency list
-    - External API
-    - Backend Platforms
-    - Custom Backend
-- Frontend dependency list
+## Backend Requirements
 
-####################################################################################
+### Do the requirements specify any special backend platforms, such as Firebase, Strapi, or Sashido?
+*Yes*; use this guide for setting up your backend [LINK: Working with backend-platforms doc]
 
-# Process
+### Does this app require a custom backend?
+*Yes*; use this guide for kicking off Node backend development [LINK: node-backend-process]
 
-## Scaffolding Angular Projects
-Angular Version 6
+## Frontend Requirements
 
-### App
-Creating a basic Angular Project via CLI
+### Does this project require a user interface?
+*Yes*; then click here to get started with our frontend development guide [LINK: frontend-process]
 
-### Services
-Adding services to existing Angular project via CLI
-
-### NGRX
-Installing NGRX to a project should be done prior to creating feature modules
-
-### Modules
-Adding shared & feature modules to existing Angular project via CLI
-
-### Components
-Adding components to existing Angular project via CLI
-
-### Other
-Other app scaffolds to add via CLI (if needed)
-- Pipes
-- Interceptors
-
-####################################################################################
-
-# Project Level
-- Dependencies
-- File structure
-- Module naming rules
-- Service file structure
-- Interface/data models file structure
-- Shared Component file structure
-- General Unit Testing
-- Integration Testing & Pipelines
-- E2E Testing
-- Package JSON specifics
-    - What dependencies are dev dependencies?
-
-# Dependencies
-## General Dependencies
-### Code & Compiling
-- Node
-- Typescript
-### Formatting
-- linting
-- husky
-### Styling
-- scss
-### Testing & Continuous Integration
-#### Testing
-- Jasmine/Karma configured by default in Angular Projects
-- Protractor e2e testing configured by default in Angular Projects
-#### Continuous Integration
-- Install TravisCI
-    - Add app via TravisCI admin dashboard
-    - Add .yml file to project
-    - Ensure that it is working as expected
-## Dev Dependencies
-## Project Specific Dependencies
-- Based on requirements document
-
-
-
-# File Structure
-## App Structure
-```
-my-app/
-  README.md
-  package.json
-  e2e/
-  public/
-    index.html
-    favicon.ico
-  src/
-    assets/
-        logo.svg
-    environments/
-        environment.ts
-        environment.prod.ts
-    models/
-    app/
-        app.module.ts
-        app-routing.module.ts
-        app.constants.ts *
-        auth.guard.ts
-        app.component.ts
-        app.component.html
-        app.component.scss
-        app.component.spec.ts
-        mocks/
-        state/
-        shared/
-        feature-1/
-        feature-2/
-        feature-3/
-```
-
-## App State
-```
-state/
-    app.actions.ts
-    app.actions.spec.ts
-    app.facade.ts
-    app.facade.spec.ts
-    app.reducer.ts
-    app.reducer.spec.ts
-```
-
-## Shared Module
-```
-shared/
-    shared.module.ts
-    api.interceptor.ts
-    components/
-        shared-modal/
-            shared-modal.component.ts
-            shared-modal.component.html
-            shared-modal.component.scss
-            shared-modal.component.spec.ts
-    pipes/
-        app-pipe.pipe.ts
-        app-pipe.pipe.spec.ts
-```
-
-## Feature Modules
-```
-feature-1/
-    feature.module.ts
-    feature-routing.module.ts
-    containers/
-        container-1/
-            container-1.component.ts
-            container-1.component.html
-            container-1.component.scss
-            container-1.component.spec.ts
-        container-2/
-    components/
-        component-1/
-            component-1.component.ts
-            component-1.component.html
-            component-1.component.scss
-            component-1.component.spec.ts
-        component-2/
-        component-3/
-        component-4/
-        component-5/
-    services/
-        feature.service.ts
-        feature.service.spec.ts
-    state/
-        feature.actions.ts
-        feature.actions.spec.ts
-        feature.reducer.ts
-        feature.reducer.spec.ts
-        feature.facade.ts
-        feature.facade.spec.ts
-feature-2/
-feature-3/
-```
-
+## Do you need to review a Pull Request
+*Yes*; check out our code review process [LINK: code-review process doc]
