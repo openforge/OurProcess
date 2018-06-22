@@ -1,73 +1,19 @@
-## General Project Reference Template
+# Frontend Development Standards
+- Architecture
+- Library Level **
+- Code Authoring Level >>
+- Generalized Code Standards & Best Practices
+- PR Reviews >>
+- Bug/Issue Tracking >>
 
-### Outline
-- Process
-    - Scaffolding Angular Projects
-        - App
-        - Services
-        - NGRX
-        - Modules
-        - Components
-        - Other
-- Standards
-    - Architecture Level
-    - Project Level
-    - Library Level
-    - Code Authoring Level
-    - Generalized Code Standards & Best Practices
-    - PR Reviews
-    - Bug/Issue Tracking
-    - Other Standards
-
-### Architecture Level
-- Gathering requirements
-- Backend dependency list
-    - External API
-    - Backend Platforms
-    - Custom Backend
-- Frontend dependency list
-
-####################################################################################
-
-# Process
-
-## Scaffolding Angular Projects
-Angular Version 6
-
-### App
-Creating a basic Angular Project via CLI
-
-### Services
-Adding services to existing Angular project via CLI
-
-### NGRX
-Installing NGRX to a project should be done prior to creating feature modules
-
-### Modules
-Adding shared & feature modules to existing Angular project via CLI
-
-### Components
-Adding components to existing Angular project via CLI
-
-### Other
-Other app scaffolds to add via CLI (if needed)
-- Pipes
-- Interceptors
-
-####################################################################################
-
-# Project Level
 - Dependencies
 - File structure
 - Module naming rules
-- Service file structure
-- Interface/data models file structure
-- Shared Component file structure
-- General Unit Testing
-- Integration Testing & Pipelines
-- E2E Testing
-- Package JSON specifics
-    - What dependencies are dev dependencies?
+
+- Testing
+    - General Unit Testing
+    - Integration Testing & Pipelines
+    - E2E Testing
 
 # Dependencies
 ## General Dependencies
@@ -91,8 +37,6 @@ Other app scaffolds to add via CLI (if needed)
 ## Dev Dependencies
 ## Project Specific Dependencies
 - Based on requirements document
-
-
 
 # File Structure
 ## App Structure
