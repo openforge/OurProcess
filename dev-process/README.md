@@ -2,9 +2,9 @@
   <img src="https://github.com/openforge/main-website/blob/master/src/assets/logo-openforge.png?raw=true"/>
 </p>
 <p align="center">
-  <a href="http://wwwopenforgeio/">Official Website</a> |
-  <a href="http://wwwopenforgeio/opportunities">Opportunities</a> |
-  <a href="https://wwwfacebookcom/OpenForgeUS/">Facebook</a>
+  <a href="http://www.openforge.io/">Official Website</a> |
+  <a href="http://www.openforge.io/opportunities">Opportunities</a> |
+  <a href="https://www.facebook.com/OpenForgeUS/">Facebook</a>
 </p>
 
 <h3 align="center">
