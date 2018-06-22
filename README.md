@@ -4,95 +4,64 @@ Development standards for frontend web applications at Openforge
 ## General Project Reference Template
 
 ### Outline
-- Architecture Level
-- Project Level
-- Library Level
-- Code Authoring Level
-- Generalized Code Standards & Best Practices
-- PR Reviews
-- Bug/Issue Tracking
-- Other Standards
+- Process
+    - Scaffolding Angular Projects
+        - App
+        - Services
+        - NGRX
+        - Modules
+        - Components
+        - Other
+- Standards
+    - Architecture Level
+    - Project Level
+    - Library Level
+    - Code Authoring Level
+    - Generalized Code Standards & Best Practices
+    - PR Reviews
+    - Bug/Issue Tracking
+    - Other Standards
 
 ### Architecture Level
-- File structure
-- Module file structure
-- Module naming rules
-- Service file structure
-- Interface/data models file structure
-- Shared Component file structure
-- General Unit Testing
-- Integration Testing & Pipelines
-- E2E Testing
+- Gathering requirements
+- Backend dependency list
+    - External API
+    - Backend Platforms
+    - Custom Backend
+- Frontend dependency list
 
-### Project Level
-- General Dependencies
-- Package JSON specifics
-    - What dependencies are dev dependencies?
+####################################################################################
 
-### Library Level
-- Routing
-- Async Operations with RxJS
-- Unit Testing
-- State management
-    - State
+# Process
 
-### Code Authoring Level
-- Imports
-- Constructors
-- Comments
-- Strings
-- Working with Types
-    - Declaration
-    - Initialization
-    - Instantiation
-- Type Casting
-- Naming Rules (variables)
-    - General variables
-    - Library based conventions
-    - Reserved words: simple, don’t use them
-- Lint Rules
-- Prettier
+## Scaffolding Angular Projects
+Angular Version 6
 
-### Generalized Code Standards & Best Practices
-- Naming conventions
-- ??? (Research other topics)
+### App
+Creating a basic Angular Project via CLI
 
-### PR Reviews
-- Look into a few recent projects
-- Review recently approved PRs
-- Review current unapproved PRs
-- Define process for PR reviews
+### Services
+Adding services to existing Angular project via CLI
 
-### Bug/Issue Tracking
-- How to report issues (how to format report)
-- Where to report issues
-- Creating issue branches
-- Creating issue PRs
-- Reviewing & closing
+### NGRX
+Installing NGRX to a project should be done prior to creating feature modules
 
-### Other standards
-- Multilingual support
-- Accessibility
+### Modules
+Adding shared & feature modules to existing Angular project via CLI
 
-### Project Specific README Templates
-- Angular
-- Ionic
-- Stencil
-- PWAessibility
+### Components
+Adding components to existing Angular project via CLI
 
-### Project Specific README Templates
-- Angular
-- Ionic
-- Stencil
-- PWA
+### Other
+Other app scaffolds to add via CLI (if needed)
+- Pipes
+- Interceptors
 
 ####################################################################################
 
 # Project Level
-- General Dependencies
-- Install Continuous Integration
-- General App File structure
-- Module file structure
+- Dependencies
+- File structure
 - Module naming rules
 - Service file structure
 - Interface/data models file structure
@@ -103,15 +72,30 @@ Development standards for frontend web applications at Openforge
 - Package JSON specifics
     - What dependencies are dev dependencies?
 
-# General Dependencies
-## Code & Compiling
+# Dependencies
+## General Dependencies
+### Code & Compiling
 - Node
 - Typescript
-## Formatting
+### Formatting
 - linting
 - husky
-## Styling
+### Styling
 - scss
+### Testing & Continuous Integration
+#### Testing
+- Jasmine/Karma configured by default in Angular Projects
+- Protractor e2e testing configured by default in Angular Projects
+#### Continuous Integration
+- Install TravisCI
+    - Add app via TravisCI admin dashboard
+    - Add .yml file to project
+    - Ensure that it is working as expected
+## Dev Dependencies
+## Project Specific Dependencies
+- Based on requirements document
+
+
 
 # File Structure
 ## App Structure
@@ -209,3 +193,4 @@ feature-1/
 feature-2/
 feature-3/
 ```
+
