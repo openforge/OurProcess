@@ -27,15 +27,15 @@ Refer to your project's dev-requirements to find answers to the following questi
 ## Backend Requirements
 
 ### Do the requirements specify any special backend platforms, such as Firebase, Strapi, or Sashido?
-*Yes*; use this guide for setting up your backend [LINK: Working with backend-platforms doc]
+**Yes**; use this guide for setting up your backend [LINK: Working with backend-platforms doc]
 
 ### Does this app require a custom backend?
-*Yes*; use this guide for kicking off Node backend development [LINK: node-backend-process]
+**Yes**; use this guide for kicking off Node backend development [LINK: node-backend-process]
 
 ## Frontend Requirements
 
 ### Does this project require a user interface?
-*Yes*; then click here to get started with our frontend development guide [LINK: frontend-process]
+**Yes**; then click here to get started with our frontend development guide [LINK: frontend-process]
 
 ## Do you need to review a Pull Request
-*Yes*; check out our code review process [LINK: code-review process doc]
+**Yes**; check out our code review process [LINK: code-review process doc]
