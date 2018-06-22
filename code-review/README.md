@@ -17,10 +17,25 @@
 
 # Code Review
 
-1. Does the code meet X standards?
-2. Is there a simpler/easier way to accomplish this?
-    -  Is it worth the time to refactor?
-4. What to do if the code passes/fails review?
+1. Does the code agree with the standards template *[REF: Dev Standards Template]*?
+  - Architecture
+  - RXJS Standards
+  - NGRX Standards
+  - Best Practices
+2. Does the code match the rest of the application?
+3. Is CI passing?
+4. Create issues as needed
+  - Is there time available?
+    - Set weekly hours for each point person to perform reviews
+  - If in feature branch, assign to feature author
+  - If in develop/master branch, assign to point person
+5. Is there a simpler/easier way to accomplish this?
+  - Is it worth the time to refactor?
+  - *[REF: Technical Debt Log]*
+6. Does the   
+7. What to do if the code passes/fails review?
+8. After passing review, create QA task for feature
+  - Does the feature match requirements?
 
 
 ## Standards
@@ -33,7 +48,6 @@ Ensure that the code is not does not contain extraneous logic/changes. If import
 Some refactors will not be time/cost efficient while the code is in review. If you believe the refactoring effort should be re-approved first, please refer to the *Dev Process Guide -- Scoping Work for Approval*. Either way, be sure to leave comments in the Pull Request about any enhancements that should be made.
 
 ## Definition of Done
-
 Code reviewers should leave clear comments and descriptions of any issues found during review process.
 
 #### Failed Review
