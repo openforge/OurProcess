@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://githubcom/openforge/main-website/blob/master/src/assets/logo-openforgepng?raw=true"/>
+  <img src="https://github.com/openforge/main-website/blob/master/src/assets/logo-openforge.png?raw=true"/>
 </p>
 <p align="center">
   <a href="http://wwwopenforgeio/">Official Website</a> |
