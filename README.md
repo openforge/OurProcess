@@ -16,26 +16,24 @@
 </p>
 
 # What is this?
-A simple procedural guide for developing applications the OpenForge way. This is the starting point for the development phase of every project.
+This is the guiding light pointing you in the right direction.
 
-# What do you need to get started?
-Prior to kicking off development on a new project, you will need to gather the dev-requirements[LINK: dev-requirements template doc] for the specific project that you're working on. That document will be your guide to figuring out all necessary dependencies & specifics for your project.
+# Starting Design Process
+In order to guarantee success when building a project on time and on budget (scope), we have a rigorous Discovery and Design process that includes members of the Design, Development, QA, and Business teams.
 
-# Let's Kick off Dev Work
-Refer to your project's dev-requirements to find answers to the following questions, and follow the appropriate links to get to where you need to be. Now, we are officially kicking off dev, WHOOO!
+If you're starting the [Discovery & Design Process, Start Here.](https://github.com/openforge/Standards/tree/master/design-process)
 
-## Backend Requirements
+# Starting Development Process
+Prior to kicking off development on a new project, you will need to gather the requirements for the project you'll be working on. If you are the point person, be sure to send the client the [New Project Questionaire](https://github.com/openforge/Standards/blob/master/dev-process/new-project-questionaire.md).  This document will be your guide to figuring out all necessary dependencies & specifics for your project.
 
-### Do the requirements specify any special backend platforms, such as Firebase, Strapi, or Sashido?
-**Yes**; use [this guide](./dev-process/backend/platforms/README.md) for setting up your backend.
+If you're starting the [Dev Process, Start Here.](https://github.com/openforge/Standards/tree/master/dev-process)
 
-### Does this app require a custom backend?
-**Yes**; use [this guide](./dev-process/backend/node-backend/README.md) for kicking off Node backend development.
+# Project Management Process
+We have taken inspiration from Henry Ford to make the process of Application development as straight forward as possible.  With that said, our Project Management requirements are streamlined as well.
 
-## Frontend Requirements
+If you are Project Manager, [you can find your instructions here!](https://github.com/openforge/Standards/blob/master/project-management/README.md)
 
-### Does this project require a frontend user interface?
-**Yes**; use [this guide](./dev-process/frontend/README.md) to get started with our frontend development guide.
+# Quality Assurance Process
+Quality Assurance is a very important aspect of a Project, and we have a section dedicated to this process for anyone who's responsible for this task.
 
-## Do you need to review a Pull Request
-**Yes**; use [this guide](./code-review/README.md) for our code review process.
+If you are Quality Assurance Engineer, [you can find your instructions here!](https://github.com/openforge/Standards/blob/master/quality-assurance/README.md)

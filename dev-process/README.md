@@ -138,3 +138,18 @@ Implement the intended functionality in the business logic for each feature acco
 
 
 
+## Backend Requirements
+
+### Do the requirements specify any special backend platforms, such as Firebase, Strapi, or Sashido?
+**Yes**; use [this guide](./dev-process/backend/platforms/README.md) for setting up your backend.
+
+### Does this app require a custom backend?
+**Yes**; use [this guide](./dev-process/backend/node-backend/README.md) for kicking off Node backend development.
+
+## Frontend Requirements
+
+### Does this project require a frontend user interface?
+**Yes**; use [this guide](./dev-process/frontend/README.md) to get started with our frontend development guide.
+
+## Do you need to review a Pull Request
+**Yes**; use [this guide](./code-review/README.md) for our code review process.
