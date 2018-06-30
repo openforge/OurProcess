@@ -17,7 +17,7 @@
 
 # What to do
 
-If you're reading this, it means you're part of our dev team!   So, let's understand how the dev process works as part of OpenForge.
+If you're reading this, it means you're part of our team or simply curious about our process.  Thank you for that :)  Let's dive into the dev process!
 
 ** Insert Infographic **
 
