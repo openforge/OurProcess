@@ -15,8 +15,10 @@
   Working with the latest technologies, designing the best products, and sharing our knowledge with the world wide community
 </p>
 
-# What is this?
-This is the guiding light pointing you in the right direction.
+# Process is Everything - Lead By Example
+With process, drive, and dedication a group of individuals can do amazing things.   We believe process is everything; and it provides certainty and stability to our projects as our reputation as designers and developers at OpenForge.
+
+This document (and series of documents) contains the responsibilities of each team member and position within our team.  Please follow this guide, ask questions along the way, and contribute as you see areas for improvement.  Just like our team and the technology we use, our process is constantly evolving to become better and more efficient as we grow as individuals.
 
 # Starting Design Process
 In order to guarantee success when building a project on time and on budget (scope), we have a rigorous Discovery and Design process that includes members of the Design, Development, QA, and Business teams.
