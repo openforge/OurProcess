@@ -26,7 +26,7 @@ In order to guarantee success when building a project on time and on budget (sco
 If you're starting the [Discovery & Design Process, Start Here.](https://github.com/openforge/Standards/tree/master/design-process)
 
 # Starting Development Process
-Prior to kicking off development on a new project, you will need to gather the requirements for the project you'll be working on. If you are the point person, be sure to send the client the [New Project Questionaire](https://github.com/openforge/Standards/blob/master/dev-process/new-project-questionaire.md).  This document will be your guide to figuring out all necessary dependencies & specifics for your project.
+Prior to kicking off development on a new project, you will need to gather the requirements for the project you'll be working on. If you are the point person, be sure to send the client the [The Dev Questionaire](https://github.com/openforge/Standards/blob/master/dev-process/questionnaire/dev-questionnaire.md).  This document will be your guide to figuring out all necessary dependencies & specifics for your project.
 
 If you're starting the [Dev Process, Start Here.](https://github.com/openforge/Standards/tree/master/dev-process)
 

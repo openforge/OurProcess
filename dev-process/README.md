@@ -30,7 +30,7 @@ The first step in scoping a project is understanding the requirements.   At Open
 
 ## Development Phase
 
-1. Verify all account access has been received with [Project Manager](https://github.com/openforge/Standards/tree/master/project-management) [The Dev Questionaire](https://github.com/openforge/Standards/blob/master/dev-process/questionnaire/dev-questionnaire.md)
+1. Verify all account access has been received with [Project Manager](https://github.com/openforge/Standards/tree/master/project-management), if not see details at [The Dev Questionaire](https://github.com/openforge/Standards/blob/master/dev-process/questionnaire/dev-questionnaire.md)
 2. Initialize Repository w/ template
 3. Copy README from [OpenForge.io README](https://github.com/openforge/OPENFORGE.IO)
 4. Setup all Standards 

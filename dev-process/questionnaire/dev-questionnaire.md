@@ -26,39 +26,39 @@ The Purpose of this document is to ask questions they may not have thought of, i
 ## Accounts
 
 1. Where is your source code hosted?  
-  * We recommend [Github](https://github.com) primarily, or [Bitbucket](https://bitbucket.com)
-  * If you do not have an account, please create one following these steps [Github Instructions](https://help.github.com/articles/inviting-collaborators-to-a-personal-repository/)
+    * We recommend [Github](https://github.com) primarily, or [Bitbucket](https://bitbucket.com)
+    * If you do not have an account, please create one following these steps [Github Instructions](https://help.github.com/articles/inviting-collaborators-to-a-personal-repository/)
 2. Where is your current hosting?
-  * We typically recommend [Heroku](http://herokuapp.com/), [AWS](https://aws.amazon.com/), or [Microsoft Azure](https://azure.microsoft.com/en-us/)
-  * Please invite hello@openforge.io as an admin
+    * We typically recommend [Heroku](http://herokuapp.com/), [AWS](https://aws.amazon.com/), or [Microsoft Azure](https://azure.microsoft.com/en-us/)
+    * Please invite hello@openforge.io as an admin
 3. Do you have an Apple Developer Account?
-  * If not, [please sign up here](https://developer.apple.com/)
-  * NOTE:  You must [apply for a DUNS number.](https://developer.apple.com/support/D-U-N-S/)  This can take a couple weeks.  
-  * Please invite us hello@openforge.io
+    * If not, [please sign up here](https://developer.apple.com/)
+    * NOTE:  You must [apply for a DUNS number.](https://developer.apple.com/support/D-U-N-S/)  This can take a couple weeks.  
+    * Please invite us hello@openforge.io
 4.  Do you have a Google Play account?
-  * If not, [please sign up here](https://play.google.com/apps/publish/signup/)
-  * Please invite us hello@openforge.io
+    * If not, [please sign up here](https://play.google.com/apps/publish/signup/)
+    * Please invite us hello@openforge.io
 
 ## Technical Features
 
 1. Do you want Local or Remote Push Notifications?   
-  * The [differences can be found here](https://medium.com/@satishios25/local-remote-notifications-overview-ios-4cd68e6bffd8)
-  * Please elaborate on the use cases and add into user flow
+    * The [differences can be found here](https://medium.com/@satishios25/local-remote-notifications-overview-ios-4cd68e6bffd8)
+    * Please elaborate on the use cases and add into user flow
 2. Do you want your app to run in the background?
 3. Does your app require any native functionality 
-  * I.e., Geolocation, Facial Recognition, Augmented Reality, Virtual Reality, etc.
+    * Geolocation, Facial Recognition, Augmented Reality, Virtual Reality, etc.
 4. Does your app have any social network components?
-  * I.e., 1-1 Chat, Group Chat, News Feed, etc.
+    * 1-1 Chat, Group Chat, News Feed, etc.
 5. Does your app have any filters?
-  * I.e., ability to edit a photo before a user uploads
+    * Ability to edit a photo before a user uploads
 
 ## Legal
 
 1. Does your app require any compliancies?  
-  * I.e. HIPPA, Financial, etc?
+    * HIPPA, Financial, etc?
 2. Does anything require credits, mentions, disclosures, etc? 
-  * Please remember, you are responsible for aquiring valid licenses for anything you provide our team with to use during the process, such as photos, videos, music, or code.
+    * Please remember, you are responsible for aquiring valid licenses for anything you provide our team with to use during the process, such as photos, videos, music, or code.
 3. Do you have your Terms of Service?   
-  * Please send to us
+    * Please send to us
 4. Do you have your Privacy Policy?
-  * Please send to us
+    * Please send to us
