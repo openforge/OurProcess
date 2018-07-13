@@ -19,18 +19,13 @@
 
 If you're reading this, it means you're part of our team or simply curious about our process.  Thank you for that :)  Let's dive into the dev process!
 
-** Insert Infographic **
 
-## Discovery Phase (Business Requirements)
+## Discovery & Design Phase (Business Requirements)
 
 The first step in scoping a project is understanding the requirements.   At OpenForge, we involve both design and developers equally in our process.  In a typical project, a dev is responsible for:
 
 - Send client **The Dev Questionaire**
 - Reviewing App requirements & Questionare w/ Design Team
-
-
-## Design Phase
-
 - Iterate over design & functional requirements w/ designers 
 - Send client questions / receive clarifications on functionality
 - Annotated the designs from developer standpoint
