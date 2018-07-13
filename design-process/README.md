@@ -86,9 +86,9 @@ See [instructions for development phase](https://github.com/openforge/Standards/
 Congratulations!  The design process is now complete until the next iteration is requested.  Don't forget to update version numbers!
 
 <p align="center">
-  <img src="https://github.com/openforge/Standards/tree/master/design-process/assets/wireframe-overview.png?raw=true"/>
+  <img src="https://github.com/openforge/Standards/blob/master/design-process/assets/wireframe-overview.png?raw=true"/>
 </p>
 
 <p align="center">
-  <img src="https://github.com/openforge/Standards/tree/master/design-process/assets/designed-wireframes.png?raw=true"/>
+  <img src="https://github.com/openforge/Standards/blob/master/design-process/assets/designed-wireframes.png?raw=true"/>
 </p>
