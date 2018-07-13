@@ -40,17 +40,19 @@ The Discovery process is a series of exercises, workshops, and collaborative mee
 
 The Discovery Process involves 3-4 stakeholders
 
-1. Jedi (Business Strategy)
-2. Geoff (Email Marketing Strategy & Account Management)
-3. William (Quality Management - If UX Audit)
-4. Rachel (Design Lead)
+1. Business Strategy
+    * Jedi
+2. Email Marketing Strategy & Account Management
+    * Geoff
+3. Design Lead
+    * Rachel
 
 ## Deliverables
 
 At the conclusion of Discovery, before Design starts - we should have provided to the client all of the above, in addition to the following requests sent to client
 
 * Look & Feel Questionnaire
-* Feature Requirement Questionnaire
+* [Dev Requirement Questionnaire](https://github.com/openforge/Standards/blob/master/dev-process/questionnaire/dev-questionnaire.md)
 
 # Design 
 
@@ -63,21 +65,21 @@ The main activities are
 * OpenForge Logo Design
 * User Flow Review
 * Design Iterations
-  * Provide 3-4 screens for review; receive feedback before continuing
+     * Provide 3-4 screens for review; receive feedback before continuing
 * Design Review w/ Development Team for Scoping Updates
 * After Reviewed w/ Dev Team, Upload to Marvel for Client Approval
 
 ## Deliverables
 
 * Sketch File (See below for examples)
-  * Symbol File - Contains all base screens 
-  * WireFrame Overview - Contains screens, categorized by feature
-  * User Flow Wireframes - Wireframes broken out into specific user flows
-  * Designed User Flows - Replacing of existing symbol files to contain new designs.
+    * Symbol File - Contains all base screens 
+    * WireFrame Overview - Contains screens, categorized by feature
+    * User Flow Wireframes - Wireframes broken out into specific user flows
+    * Designed User Flows - Replacing of existing symbol files to contain new designs.
 * Marvel Link
-  * Password Protected
-  * Versioned (every update, use [SEMVER](https://semver.org/))
-  * Clickable Prototype of Designs
+    * Password Protected
+    * Versioned (every update, use [SEMVER](https://semver.org/))
+    * Clickable Prototype of Designs
 
 # Next - Development Phase!
 

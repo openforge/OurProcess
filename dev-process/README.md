@@ -34,11 +34,11 @@ The first step in scoping a project is understanding the requirements.   At Open
 2. Initialize Repository w/ template
 3. Copy README from [OpenForge.io README](https://github.com/openforge/OPENFORGE.IO)
 4. Setup all Standards 
-  * Commitizen, Gitflow, etc
+     * Commitizen, Gitflow, etc
 5. Setup Github/Heroku/TravisCI Continuous Integration Strategy
-  * Development
-  * QA (Optional)
-  * Production
+    * Development
+    * QA (Optional)
+    * Production
 6. Scaffold App & Setup Routing for Team contributions
 
 # Front-End (Mobile & Web Apps)
