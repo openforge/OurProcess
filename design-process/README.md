@@ -54,7 +54,7 @@ The main activities (in order)
 1. Send Design Questionaire
 2. Create User Persona(s) & Journey for all User Types
 3. Suggestions & Review of User Flows w/ Client 
-4. Framework Selection w/ Dev Point (Ionic, Bootstrap)
+4. Framework Selection w/ Dev Point (Ionic, Bootstrap, Wordpress Theme, etc)
 5. Create Greyscale Wireframes 
     * 3 screens at a time
 6. Schedule Dev Review 
