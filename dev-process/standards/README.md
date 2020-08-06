@@ -1,6 +1,7 @@
 # Frontend Development Standards
+
 - Architecture
-- Library Level **
+- Library Level \*\*
 - Code Authoring Level >>
 - Generalized Code Standards & Best Practices
 - PR Reviews >>
@@ -11,35 +12,52 @@
 - Module naming rules
 
 - Testing
-    - General Unit Testing
-    - Integration Testing & Pipelines
-    - E2E Testing
+  - General Unit Testing
+  - Integration Testing & Pipelines
+  - E2E Testing
 
 # Dependencies
+
 ## General Dependencies
+
 ### Code & Compiling
+
 - Node
 - Typescript
+
 ### Formatting
+
 - linting
 - husky
+
 ### Styling
-- scss
+
+- Follow styling documentation in [Style Guide README](https://github.com/openforge/Standards/tree/master/dev-process/standards/style-guide)
+
 ### Testing & Continuous Integration
+
 #### Testing
+
 - Jasmine/Karma configured by default in Angular Projects
 - Protractor e2e testing configured by default in Angular Projects
+
 #### Continuous Integration
+
 - Install TravisCI
-    - Add app via TravisCI admin dashboard
-    - Add .yml file to project
-    - Ensure that it is working as expected
+  - Add app via TravisCI admin dashboard
+  - Add .yml file to project
+  - Ensure that it is working as expected
+
 ## Dev Dependencies
+
 ## Project Specific Dependencies
+
 - Based on requirements document
 
 # File Structure
+
 ## App Structure
+
 ```
 my-app/
   README.md
@@ -73,6 +91,7 @@ my-app/
 ```
 
 ## App State
+
 ```
 state/
     app.actions.ts
@@ -84,6 +103,7 @@ state/
 ```
 
 ## Shared Module
+
 ```
 shared/
     shared.module.ts
@@ -100,6 +120,7 @@ shared/
 ```
 
 ## Feature Modules
+
 ```
 feature-1/
     feature.module.ts
@@ -134,4 +155,3 @@ feature-1/
 feature-2/
 feature-3/
 ```
-
